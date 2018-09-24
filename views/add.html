@@ -1,0 +1,108 @@
+<h1>
+    Ad thing
+</h1>
+<form action="/add" method="POST">
+    <div class="form-group">
+        <input type="text" name="thing" class="form-control form-control-lg" placeholder="Add something you love">
+    </div>
+            <input type="submit" value="Add" class="button btn btn-dark btn-lg">
+        <a href="/" class="cancelButton btn btn-danger btn-lg">Cancel</a>
+</form>
+
+<style>    
+    h1 {
+        padding: 16px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 25px; /* Used in this example to enable scrolling */
+        }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group-lg .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    input {
+        line-height: normal;
+    }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    input {
+        -webkit-appearance: textfield;
+        background-color: white;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        padding: 1px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: initial;
+        border-image: initial;
+    }
+
+
+
+    .button {
+        cursor: pointer;
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        margin: 9px;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+    }
+    .cancelButton {
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        text-decoration: none;
+    }
+</style>
